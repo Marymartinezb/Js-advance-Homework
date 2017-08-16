@@ -1,0 +1,56 @@
+body {
+	background: #fff;
+}
+
+#carousel {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#carousel .item {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: RGBA(255,255,255,0.5) url("../images/moon.png");
+	background-size: cover;
+	background-position: -50% 0;
+}
+
+
+#carousel .item-label {
+	background: #369;
+	color: #fff;
+}
+
+
+#carousel .btn {
+	position: absolute;
+	z-index: 400;
+	width: 100px;
+	font-family: Arial;
+	background: #c90;
+	font-size: 16px;
+	border: 1px solid #fff;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	cursor: pointer;
+	padding: 5px 5px;
+}
+
+#carousel .btn:Hover {
+	background: #fc0;
+}
+
+
+#carousel .btn-previous {
+	left: 5px;
+	bottom: 5px;
+}
+
+#carousel .btn-next {
+	right: 5px;
+	bottom: 5px;
+}
